@@ -6,7 +6,7 @@ API_KEY="918713575dff83f79a7ac9309a272f9c"
 def get_weather(lat,lon):
     url= "https://api.openweathermap.org/data/2.5/weather?&lat="+lat+"&lon"+lon+"&appod="+API_KEY
     response=requests.get(url)
-    response_json=response.json
+    response_json=response.json()
     return response_json
 
 
