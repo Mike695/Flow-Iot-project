@@ -16,7 +16,7 @@ bikeData['stops']=[]
 bikeData['lon']=[]
 bikeData['lat']=[]
 
-with open ('/home/michael.woods/BikeStations.csv','r') as f:
+with open ('BikeStations.csv','r') as f:
     csvreader=csv.reader(f)
     for i in csvreader:
         if i[0] == 'ID':
