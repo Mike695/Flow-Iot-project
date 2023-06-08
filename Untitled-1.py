@@ -74,6 +74,8 @@ def nearest(df):
     mapdf={"lat":maplat,"lon":maplon}
     points=pd.DataFrame(data=mapdf)
     st.map(points)
+temp=get_weather('43.605366','3.881346')
+kelvin_to_F(temp)
    
         
 nearest(df)
