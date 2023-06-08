@@ -15,5 +15,4 @@ def kelvin_to_F(k):
 
 def kelvin_to_c(k):
     return k-273.15
-temp=get_weather('43.605366','3.881346')
-kelvin_to_F(temp)
+
